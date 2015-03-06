@@ -1,0 +1,2 @@
+export CDH_STORM_HOME="${PARCELS_ROOT:?}/${PARCEL_DIRNAME:?}"
+# vim: ft=bash

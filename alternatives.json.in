@@ -1,0 +1,9 @@
+{
+    "storm": {
+        "destination": "/usr/bin/storm",
+        "source": "bin/storm-cm",
+        "priority": 10,
+        "isDirectory": false
+    }
+}
+! vim: ft=json ts=4 sts=4 sw=4 et

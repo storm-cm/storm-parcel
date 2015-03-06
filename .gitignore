@@ -1,0 +1,7 @@
+/gpg-homedir/
+/stamp-*
+/cm_ext/
+STORM-*/
+STORM-*.parcel
+apache-storm-*.tar.gz
+apache-storm-*.tar.gz.asc

@@ -1,0 +1,4 @@
+#!/bin/bash
+set -eu
+export STORM_CONF_DIR=/etc/storm/conf
+exec "$(dirname "$(readlink -e "${BASH_SOURCE[-1]}")")/storm" "$@"

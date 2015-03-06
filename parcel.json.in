@@ -1,0 +1,29 @@
+{
+    "schema_version": 1,
+    "name": "STORM",
+    "version": "@VERSION@",
+    "setActiveSymlink": false,
+    "provides": [
+        "storm"
+    ],
+    "scripts": {
+        "defines": "defines"
+    },
+    "packages": [],
+    "components":[
+        {
+            "name": "storm",
+            "version": "@VERSION@"
+        }
+    ],
+    "users": {
+        "storm": {
+            "longname": "Storm",
+            "home": "/run/storm",
+            "shell": "/bin/bash",
+            "extra_groups": []
+        }
+    },
+    "groups": []
+}
+! vim: ft=json ts=4 sts=4 sw=4 et
